@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav .item{
+    height: 60px;
+}
+
+.item-caja1{
+    background-color: #7A1F2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logonumero img{
+    width: 25px;
+    height: 25px;
+}
+
+.logonumero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logonumero p{
+    font-family: "Nunito Sans", sans-serif;
+    color: #F5E6D3;
+    font-size: 12px;
+    margin: 0;
+}
+
+.rojo{
+    background-color: #7A1F2B;
+}
+
+.fondo{
+    background-color: #7A1F2B;
+}
+
+.fondo img{
+    width: 175px;
+    height: auto;
+    margin: auto;
+}
+
+.iconoubi img{
+    width: 13px;
+    height: auto;
+}
+
+.iconoubi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.iconoubi p{
+    font-family: "Nunito Sans", sans-serif;
+    color: #F5E6D3;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.rosa{
+    background-color: rgb(190, 120, 125);
+}
+
+.imagen{
+    height: 500px;
+    background-image: url(images/trufasdechocolate.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.primer-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primer-titulo{
+    font-family: "Libre Baskerville", serif;
+    font-size:30px;
+    color: #7A1F2B;
+    margin-bottom: 20px;
+}
+
+.recuadro{
+    background-color: #7A1F2B;
+    padding: 10px 30px ;
+}
+
+.recuadro{
+    font-family: "Nunito Sans", sans-serif;
+    color: #F5E6D3;
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-lista{
+    height: 1150px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 0.8fr 3fr;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+
+    row-gap: 25px;
+    column-gap: 25px;
+    padding: 55px 55px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.anio1{
+    background-image: url(images/cayambe70.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anio1 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 70px;
+    color: #7A1F2B;
+}
+
+.anio2{
+    background-image: url(images/1995.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anio2 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 70px;
+    color: #7A1F2B;
+}
+
+.anio3{
+    background-image: url(images/2008.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anio3 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 70px;
+    color: #7A1F2B;
+}
+
+.anio4{
+    background-image: url(images/2020.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anio4 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 70px;
+    color: #7A1F2B;
+}
+
+.anio5{
+    background-image: url(images/2022.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anio5 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 70px;
+    color: #7A1F2B;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    background-color: #7A1F2B;
+    padding: 22px;
+    width: 90%;
+}
+
+.texto p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    color: #F5E6D3;
+}
+
+.separador{
+    height: 100px;
+    background-color: #7A1F2B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    margin: auto;
+}
+
+.separador h4{
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+}
+
+.separador i{
+    color: #F5E6D3;
+}
+
+.contenedor-tres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:500px;
+    gap: 20px;
+    padding: 0 152px;
+}
+
+.footer-arriba{
+    height: 100px;
+    background-color: #7A1F2B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer-arriba{
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    color: #F5E6D3;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 500px;
+}
+
+.imagenbox1{
+    background-image: url(images/pastel1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 390px;
+}
+
+.textobox1{
+    padding: 5px;
+    background-color: #F5E6D3;
+    text-align: center;
+}
+
+.textobox1 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    color: #7A1F2B;
+    margin-bottom: 10px;
+
+}
+
+.textobox1 p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    color: #7A1F2B;
+    margin-top: 10px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 500px;
+}
+
+.imagenbox2{
+    background-image: url(images/pastel2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 390px;
+}
+
+.textobox2{
+    padding: 5px;
+    background-color: #F5E6D3;
+    text-align: center;
+}
+
+.textobox2 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    color: #7A1F2B;
+    margin-bottom: 10px;
+
+}
+
+.textobox2 p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    color: #7A1F2B;
+    margin-top: 10px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 500px;
+}
+
+.imagenbox3{
+    background-image: url(images/pastel3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 390px;
+}
+
+.textobox3{
+    padding: 5px;
+    background-color: #F5E6D3;
+    text-align: center;
+}
+
+.textobox3 h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    color: #7A1F2B;
+    margin-bottom: 10px;
+
+}
+
+.textobox3 p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    color: #7A1F2B;
+    margin-top: 10px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    background-color: #7A1F2B;
+}
+
+
+.footer-grid img{
+    width: 20px;
+    height: auto;
+}
+
+.imagentexto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagentexto p{
+    font-family: "Nunito Sans", sans-serif;
+    color: #F5E6D3;
+    font-size: 12px;
+    margin: 0;
+}
